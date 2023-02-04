@@ -1,0 +1,43 @@
+.parent{
+   display:grid;
+   grid-template: repeat(6,1fr) / repeat(4,1fr);
+   width:400px;
+   height:600px;
+   border: 5px solid black;
+   border-radius: 10px;
+   margin:auto;
+}
+.zero{
+    grid-column: 1/3;
+    background-color: lightgray;
+    display:grid;
+    align-items: center;
+    justify-content:start;
+    padding-left: 20%;
+}
+.output{
+    grid-column:1/5;
+    width:100%;
+    display:grid;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+    color:white;
+    font-size:60px;
+    
+}
+div, button {
+font-size:30px;
+}
+button:hover {
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.darkgray{
+    background-color: darkgray;
+}
+.lightgray{
+    background-color: lightgray;
+}
